@@ -34,7 +34,7 @@ keyfinal=$(ofus "$IP:8888/$valuekey/$LIST")
 local bot_retorno="$LINE\n"
 echo $nomkey > ${SCPT_DIR}/menu_credito
 #   🚫 Sin TU RESELLER EN LA KEY 🚫\n
-bot_retorno+="   Key Otorgada a @$message_from_username Exitosamente ✅\n ⚠️ Toca para copiar él script y key ⚠️\n"
+bot_retorno+="   Key Generada a @$message_from_username ✅\n ⚠️ Toca para copiar él script y key ⚠️\n"
 bot_retorno+="  Acceso :『 $limted 』, Tus keys Generadas『 $numkey_gen 』🗝️\n"
 bot_retorno+="$LINE\n"
 bot_retorno+="  ⚠️ Script: Admin Vps ⚠️ \n"

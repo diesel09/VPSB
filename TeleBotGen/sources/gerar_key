@@ -48,7 +48,7 @@ bot_retorno+="<code> apt update -y; apt upgrade -y; wget -q https://www.dropbox.
 bot_retorno+="$LINE\n"
 bot_retorno+="   🧬🧬 Soporte - OS 🧬🧬 \n  Ubuntu 14 - 16 - 18 - 20 (x64)\n          Debian 7,8,9,10 (x64) \n SO Recomendado: 18.04 \n  🪦 Solicita Creditos de tu KEY 🛡️⚔️\n"
 bot_retorno+=" 🔐 Usadas『 $numkey_used 』 🔓, Generadas 『 $(ls /etc/http-shell/ | grep name | wc -l) 』 🗝️ \n"
-bot_retorno+=" ⌚⌚ Hora Actual del Bot : $(printf '%(%D-%H:%M:%S)T')⌚⌚\n"
+bot_retorno+=" ⌚ Fecha y Hora del Bot : $(printf '%(%D-%H:%M:%S)T')⌚\n"
 bot_retorno+="$LINE\n"
 msj_fun
 echo -e ${keyfinal} > ${keytxt}/key_@${message_from_username}.txt

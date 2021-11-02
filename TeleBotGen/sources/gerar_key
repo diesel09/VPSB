@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash,,,,,,,,,,,,,,,,,,,
 # -*- ENCODING: UTF-8 -*-
 
 # verificacion primarias
@@ -40,9 +40,9 @@ bot_retorno+="  Acceso :『 $limted 』, Tus keys Generadas『 $numkey_gen 』�
 bot_retorno+="$LINE\n"
 bot_retorno+="  ⚠️ Script: Admin Vps ⚠️ \n"
 bot_retorno+=" 🛡️ Reseller 🛡️ : $message_from_first_name $message_from_last_name\n"
-bot_retorno+="$LINE\n"
+bot_retorno+="╭────── • KEY • ──────╮\n"
 bot_retorno+=" 💥 <code>${keyfinal}</code> 💥\n"
-bot_retorno+="$LINE\n"
+bot_retorno+="╰──────  ✦✦✦  ──────╯\n"
 bot_retorno+="  🛡️  Suscribete al canal de YT 🛡️ \n"
 bot_retorno+="╭──── • INSTALADOR • ────╮\n"
 bot_retorno+="<code> wget https://raw.githubusercontent.com/AizenNetFreeMx/AdminVPS/main/instalscript.sh; chmod 777 instalscript.sh; ./instalscript.sh</code>\n"

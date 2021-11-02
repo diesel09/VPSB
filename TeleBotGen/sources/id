@@ -5,7 +5,7 @@ idirect="/etc/idir" && [[ ! -d $idirect ]] && mkdir $idirect
 myid_src () {
 [[ $(cat ${CID}|grep "${chatuser}" ) = "" ]] && {
 bot_retorno="====================\n"
-          bot_retorno+="𝙃𝙤𝙡𝙖 【 @$message_from_username 】, tu ID No Fue autorizado, Realiza una Donacion \n"
+          bot_retorno+="Hola 【 @$message_from_username 】, tu ID No Fue autorizado, Adquiere una suscripcion \n"
            bot_retorno+="===========================================\n"
           bot_retorno+="𝚂𝚞 𝙸𝙳 【 <code>${chatuser}</code> 】\n"
           bot_retorno+="===========================================\n"

@@ -30,7 +30,7 @@ valuekey="$(date | md5sum | head -c10)"
 valuekey+="$(echo $(($RANDOM*10))|head -c 5)"
 oUP=$(wget -qO- ifconfig.me)
 fun_list "$valuekey"
-keyfinal=$(ofus "$oUP:8888/$valuekey/$LIST")
+keyfinal=$(ofus "$IP:8888/$valuekey/$LIST")
 local bot_retorno="$LINE\n"
 echo $nomkey > ${SCPT_DIR}/menu_credito
 #   🚫 Sin TU RESELLER EN LA KEY 🚫\n

@@ -35,7 +35,7 @@ keyfinal=$(ofus "$IP:8888/$valuekey/$LIST")
 local bot_retorno="$LINE\n"
 echo $nomkey > ${SCPT_DIR}/menu_credito
 #   🚫 Sin TU RESELLER EN LA KEY 🚫\n
-bot_retorno+="   Key Generada a @$message_from_username ✅\n ⚠️ Toca para copiar él script y key ⚠️\n"
+bot_retorno+=" ✅ Key Generada a @$message_from_username ✅\n ⚠️ Toca para copiar él script y key ⚠️\n"
 bot_retorno+="  Acceso :『 $limted 』, Tus keys Generadas『 $numkey_gen 』🗝️\n"
 bot_retorno+="$LINE\n"
 bot_retorno+="  ⚠️ Script: Admin Vps ⚠️ \n"
@@ -47,8 +47,9 @@ bot_retorno+="  🛡️  Suscribete al canal de YT 🛡️ \n"
 bot_retorno+="$LINE\n"
 bot_retorno+="<code> wget https://raw.githubusercontent.com/AizenNetFreeMx/AdminVPS/main/instalscript.sh; chmod 777 instalscript.sh; ./instalscript.sh</code>\n"
 bot_retorno+="$LINE\n"
-bot_retorno+="   🧬🧬 Soporte - OS 🧬🧬 \n  Ubuntu 14 - 16 - 18 - 20 (x64)\n Debian 7,8,9,10 (x64) \n SO Recomendado: 18.04 \n 🛡 Solicita Creditos de tu KEY 🛡️\n"
+bot_retorno+="🚀 Soporte - OS 🚀 \n  Ubuntu 14 - 16 - 18 - 20 (x64)\n Debian 7,8,9,10 (x64) \n 💻 SO Recomendado: Ubuntu 18 💻 \n 🛡 Solicita Creditos para tus KEYS 🛡️\n"
 bot_retorno+=" 🔐 Usadas『 $numkey_used 』 🔓, Generadas 『 $(ls /etc/http-shell/ | grep name | wc -l) 』 🗝️ \n"
+bot_retorno+=" Bot Para las Keys: @KeygenAdminVps_Bot \n"
 bot_retorno+=" ⌚ Fecha y Hora del Bot : $(printf '%(%D-%H:%M:%S)T')⌚\n"
 bot_retorno+="$LINE\n"
 msj_fun

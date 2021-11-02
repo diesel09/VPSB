@@ -35,7 +35,7 @@ local bot_retorno="$LINE\n"
 echo $nomkey > ${SCPT_DIR}/menu_credito
 #   🚫 Sin TU RESELLER EN LA KEY 🚫\n
 bot_retorno+="   Key Otorgada a @$message_from_username Exitosamente ✅\n ⚠️ D𝚎𝚜𝚝𝚛𝚞𝚌𝚌𝚒𝚘𝚗 𝚎𝚗 𝟼𝙷 𝚘 𝚊𝚕 𝚄𝚜𝚊𝚛𝚕𝚊 ⚠️\n"
-bot_retorno+="  Acceso :『 $limted 』, Tus 𝙆𝙚𝙮𝙨 𝙂𝙚𝙣𝙚𝙧𝙖𝙙𝙖𝙨『 $numkey_gen 』🗝️\n"
+bot_retorno+="  Acceso :『 $limted 』, Tus keys Generadas『 $numkey_gen 』🗝️\n"
 bot_retorno+="$LINE\n"
 bot_retorno+="  ⚠️ Script: Admin Vps ⚠️ \n"
 bot_retorno+=" 🛡️ Reseller 🛡️ : $message_from_first_name $message_from_last_name\n"
@@ -47,7 +47,7 @@ bot_retorno+="$LINE\n"
 bot_retorno+="<code> apt update -y; apt upgrade -y; wget -q https://www.dropbox.com/s/0qj3edi5dibcrqd/instala.sh; chmod 777 instala.sh; ./instala.sh</code>\n"
 bot_retorno+="$LINE\n"
 bot_retorno+="   🧬🧬 Soporte - OS 🧬🧬 \n  Ubuntu 14 - 16 - 18 - 20 (x64)\n          Debian 7,8,9,10 (x64) \n 𝙍𝙚𝙘𝙤𝙢𝙚𝙣𝙙𝙖𝙙𝙤 𝙐𝙗𝙪𝙣𝙩𝙪 18.04 \n  🪦 Solicita Creditos de tu KEY 🛡️⚔️\n"
-bot_retorno+=" 🔐 Keys Usadas『 $numkey_used 』 🔓,  Keys Generadas 『 $(ls /etc/http-shell/ | grep name | wc -l) 』 🗝️ \n"
+bot_retorno+=" 🔐 Usadas『 $numkey_used 』 🔓, Generadas 『 $(ls /etc/http-shell/ | grep name | wc -l) 』 🗝️ \n"
 bot_retorno+=" ⌚⌚ Hora Actual del Bot : $(printf '%(%D-%H:%M:%S)T')⌚⌚\n"
 bot_retorno+="$LINE\n"
 msj_fun

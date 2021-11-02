@@ -89,7 +89,7 @@ bot_retorno+=" Si Generaste Keys, Usalas no gastes Limite en vano  \n"
 #bot_retorno+="  𝘓𝘪𝘮𝘪𝘵𝘦 𝘗𝘦𝘳𝘮𝘪𝘵𝘪𝘥𝘰 :『 $(cat < /etc/ADM-db/limit) 』, 𝘒𝘦𝘺𝘴 𝘈𝘤𝘵𝘪𝘷𝘢𝘴 『 $(ls /etc/http-shell/ | grep name | wc -l) 』🗝️\n"
 bot_retorno+="   🧬🧬 Soporte - OS 🧬🧬 \n  Ubuntu 14 - 16 - 18 - 20 (x64)\n          Debian 7,8,9,10 (x64) \n 𝙍𝙚𝙘𝙤𝙢𝙚𝙣𝙙𝙖𝙙𝙤 𝙐𝙗𝙪𝙣𝙩𝙪 18.04 \n  🪦 Solicita Creditos de tu KEY 🛡️⚔️\n"
 bot_retorno+=" 🔐 𝙆𝙚𝙮𝙨 𝙐𝙨𝙖𝙙𝙖𝙨『 $(grep -o -i $nombrevalue /etc/gerar-sh-log | wc -l) 』 🔓, 𝘒𝘦𝘺𝘴 𝘈𝘤𝘵𝘪𝘷𝘢𝘴 『 $(ls /etc/http-shell/ | grep name | wc -l) 』 🗝️ \n"
-bot_retorno+=" ⌚⌚ Hora Actual del Bot : $(printf '%(%D-%H:%M:%S)T')⌚⌚\n"
+bot_retorno+=" ⌚ Fecha y Hora del BOT: $(printf '%(%D-%H:%M:%S)T')⌚\n"
 bot_retorno+="$LINE\n"
 msj_fun
 exit

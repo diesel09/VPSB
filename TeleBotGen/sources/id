@@ -6,11 +6,11 @@ myid_src () {
 [[ $(cat ${CID}|grep "${chatuser}" ) = "" ]] && {
 bot_retorno="====================\n"
           bot_retorno+="Hola 【 @$message_from_username 】, tu ID No Fue autorizado, Adquiere una suscripcion \n"
-           bot_retorno+="===========================================\n"
+           bot_retorno+="=======================================\n"
           bot_retorno+="Su ID 【 <code>${chatuser}</code> 】\n"
-          bot_retorno+="===========================================\n"
+          bot_retorno+="=======================================\n"
           bot_retorno+="Para estar Autorizado, Aquiera una\n Suscripcion y envíe su recibo de pago a $(cat < /etc/ADM-db/resell)\n"
-          bot_retorno+="===========================================\n"
+          bot_retorno+="=======================================\n"
 msj_fun
 } || {
 bot_retorno="====================\n"

@@ -69,9 +69,9 @@ addID_reply () {
           bot_retorno+=" FORMATO DE INGRESO <code> 00000000 | 5 </code>"
           bot_retorno+="$LINE"
 
-          bot_retor="  🎊 𝙱𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍𝚘  Nuevamente 𝚊𝚕  𝙱𝚘𝚝𝙶𝚎𝚗  𝙲𝚑𝚞𝚖𝚘𝙶𝙷-𝙰𝙳𝙼  🎊\n"
-          bot_retor+="𝙃𝙤𝙡𝙖 『 $message_from_first_name $message_from_last_name 』\n"
-          bot_retor+="El Administrador $(cat < /etc/ADM-db/resell) te autorizo\n"
+          bot_retor="  🎊 Bienvenido  Nuevamente al BOT  🎊\n"
+          bot_retor+="USUARIO:『 $message_from_first_name $message_from_last_name 』\n"
+          bot_retor+="El Administrador $(cat < /etc/ADM-db/resell) te autorizo,\n"
           bot_retor+="Autorizacion Valida Hasta : ${valid}\n"
           bot_retor+="Para GENERAR Key's usar el comando /keygen\n"
           bot_retor+="Para MENU Digita el comando /menu\n"

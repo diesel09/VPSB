@@ -63,7 +63,7 @@ bot_retorno="  🎊  Bienvenido al Script Admin VPS 🎊\n"
 
 		 bot_retorno+="$LINE\n"
 		 bot_retorno+="/infosys  ❈ INFORMACION DEL SISTEMA |\n"
-                 bot_retorno+="/keygen   ❈ GENERA UNA KEY PARA EL SCRIPT |\n"
+                 bot_retorno+="/keygen   ❈ GENERA UNA KEY PARA EL SCRIPT\n"
 		 bot_retorno+="/list     ❈ MUESTRA LISTA DE ID PERMITIDOS\n"
 		 bot_retorno+="/instal   ❈ INSTALADOR OFICIAL |\n"
 		 bot_retorno+="/menu     ❈ MENU DE ACCIONES |\n"

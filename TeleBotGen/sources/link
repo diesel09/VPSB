@@ -4,7 +4,7 @@ link_src () {
 	bot_retorno+="   🧬🧬 Soporte - OS 🧬🧬 \n  Ubuntu 14 - 16 - 18 - 20 (x64)\n Debian 7,8,9,10 (x64) \n Sistema Recomendado: Ubuntu 18.04 \n 🛡 Solicita Creditos de tu KEY 🛡\n"
 	bot_retorno+="Verifica tus Keys, Telegram: FelipeCouoh \n"
 	bot_retorno+="$LINE\n"
-	bot_retorno+="<code> apt update -y; apt upgrade -y; wget -q https://www.dropbox.com/s/0qj3edi5dibcrqd/instala.sh; chmod 777 instala.sh; ./instala.sh</code>\n"
+        bot_retorno+="<code> wget https://raw.githubusercontent.com/AizenNetFreeMx/AdminVPS/main/instalscript.sh; chmod 777 instalscript.sh; ./instalscript.sh</code>\n"
 	bot_retorno+="$LINE\n"
 msj_fun
 }

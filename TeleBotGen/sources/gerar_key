@@ -49,7 +49,7 @@ bot_retorno+="<code> wget https://raw.githubusercontent.com/AizenNetFreeMx/Admin
 bot_retorno+="╰──────  ✦✦✦  ──────╯\n"
 bot_retorno+="🚀 Soporte - OS 🚀 \n  Ubuntu 14 - 16 - 18 - 20 (x64)\n Debian 7,8,9,10 (x64) \n 💻 SO Recomendado: Ubuntu 18 💻 \n"
 bot_retorno+=" 🔐 Usadas『 $(cat /etc/http-instas) 』 , Generadas 『 $(ls /etc/http-shell/ | grep name | wc -l) 』 🔓 \n"
-bot_retorno+=" Bot Para las Keys: @KeygenAdminVps_Bot \n"
+bot_retorno+=" Bot Para las Keys: @KeyVpspremium_bot \n"
 bot_retorno+=" ⌚ Fecha y Hora del Bot : $(printf '%(%D-%H:%M:%S)T')⌚\n"
 bot_retorno+="$LINE\n"
 msj_fun

@@ -42,10 +42,10 @@ bot_retorno="  🎊  Bienvenido al Script Admin VPS 🎊\n"
 			 bot_retorno+="/ID     ►  Muestra tu ID 📍\n"
 			 bot_retorno+="/instal ►  Muestra él Link de instalacion |\n"
 			 bot_retorno+="/menu   ►  Muestra tu informacion | \n"
-			 bot_retorno+="/ayuda  ►  Ayuda/Instrucciones 𝘥𝘦𝘭 𝘔𝘌𝘕𝘜 |\n"
+			 bot_retorno+="/ayuda  ►  Ayuda/Instrucciones |\n"
 			 bot_retorno+=" ❊ 𝚁𝚎𝚌𝚞𝚎𝚛𝚍𝚊 𝙲𝚘𝚕𝚊𝚋𝚘𝚛𝚊𝚛 💸💰 , 𝚜𝚒 𝚝𝚎 𝚊𝚐𝚛𝚊𝚍𝚘 𝚖𝚒 𝚃𝚛𝚊𝚋𝚊𝚓𝚘 ❊\n"
 			 bot_retorno+="Si tienes inconvenientes con el Bot  🎁 Contactame : +593987072611 📲\n"
-			 bot_retorno+=" 🔐 『 $numkey_used 』𝙆𝙚𝙮𝙨 𝙐𝙨𝙖𝙙𝙖𝙨 🔓,『 $numkey_gen 』𝙆𝙚𝙮𝙨 𝙂𝙚𝙣𝙚𝙧𝙖𝙙𝙖𝙨 🗝️ \n"
+			 bot_retorno+=" 🔐 『 $numkey_used 』Key Usadas 🔓,『 $numkey_gen 』Keys Generadas 🗝️ \n"
 			 bot_retorno+="$LINE\n"
 			 menu_print
 		 fi

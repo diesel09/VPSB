@@ -4,9 +4,9 @@ ayuda_src () {
 bot_retorno="  🎊 Hola  $message_from_first_name $message_from_last_name Bienvenido! 🎊\n"
 	 if [[ $(echo $permited|grep "${chatuser}") = "" ]]; then
 		 if [[ $(cat ${CID}|grep "${chatuser}") = "" ]]; then
-			 bot_retorno+="/ID\n Muestra su ID \n 𝚙𝚊𝚛𝚊 𝚝𝚎𝚗𝚎𝚛 𝚊𝚌𝚌𝚎𝚜𝚘 𝚊𝚕 /𝚔𝚎𝚢𝚐𝚎𝚗\n 𝚍𝚎𝚟𝚎 𝚎𝚗𝚟𝚒𝚊𝚛 𝚜𝚞 𝙸𝙳 𝚊𝚕 𝚊𝚍𝚖𝚒𝚗 $(cat < /etc/ADM-db/resell)\n"
+			 bot_retorno+="/ID\n Muestra su ID \n si no tiene acceso \n contacte al Administrador $(cat < /etc/ADM-db/resell)\n"
 			 bot_retorno+="$LINE\n"
-			 bot_retorno+="(Boton) Keygen\n genera una key para\n el instalador del script\n para tener acceso\n deve enviar su ID al admin $(cat < /etc/ADM-db/resell)\n"
+			 bot_retorno+="/Keygen\n genera una key para\n el instalador del script\n para tener acceso\n deve enviar su ID al admin $(cat < /etc/ADM-db/resell)\n"
 			 bot_retorno+="$LINE\n"
 			 bot_retorno+="/menu\n muestra el menu\n de comandos disponibles\n"
 			 bot_retorno+="$LINE\n"

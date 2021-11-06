@@ -34,6 +34,7 @@ bot_retorno="$LINE\n"
           bot_retorno+="$LINE\n"
 
           bot_retor="  🚫 Suscripcion Expirada 🚫  🎊\n"
+          bot_retorno+="=======================================\n"
           #bot_retor+="𝙃𝙤𝙡𝙖 『 $message_from_first_name $message_from_last_name 』\n"
           bot_retor+="Desafortunadamente tu Membresia ha Finalizado\n"
           #bot_retor+=" ⌚⌚ Hora Actual del Bot : ⌚⌚\n"
@@ -70,6 +71,7 @@ addID_reply () {
           bot_retorno+="$LINE"
 
           bot_retor="  🎊 Bienvenido  Nuevamente al BOT  🎊\n"
+          bot_retorno+="=======================================\n"
           #bot_retor+="USUARIO:『 $message_from_first_name $message_from_last_name 』\n"
           bot_retor+="USUARIO:『 @$message_from_username 』\n"
           bot_retor+="El Administrador $(cat < /etc/ADM-db/resell) te autorizo,\n"

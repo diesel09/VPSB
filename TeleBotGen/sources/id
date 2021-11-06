@@ -70,7 +70,8 @@ addID_reply () {
           bot_retorno+="$LINE"
 
           bot_retor="  🎊 Bienvenido  Nuevamente al BOT  🎊\n"
-          bot_retor+="USUARIO:『 $message_from_first_name $message_from_last_name 』\n"
+          #bot_retor+="USUARIO:『 $message_from_first_name $message_from_last_name 』\n"
+          bot_retor+="USUARIO:『 @$message_from_username 』\n"
           bot_retor+="El Administrador $(cat < /etc/ADM-db/resell) te autorizo,\n"
           bot_retor+="Autorizacion Valida Hasta : ${valid}\n"
           bot_retor+="Para GENERAR Key's usar el comando /keygen\n"

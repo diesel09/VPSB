@@ -33,7 +33,7 @@ bot_retorno="$LINE\n"
           bot_retorno+=" ID Eliminado: ${ids}\n"
           bot_retorno+="$LINE\n"
 
-          bot_retor="  🎊 𝙱𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍𝚘  Nuevamente 𝚊𝚕  𝙱𝚘𝚝𝙶𝚎𝚗  𝙲𝚑𝚞𝚖𝚘𝙶𝙷-𝙰𝙳𝙼  🎊\n"
+          bot_retor="  🚫 Suscripcion Expirada 🚫  🎊\n"
           #bot_retor+="𝙃𝙤𝙡𝙖 『 $message_from_first_name $message_from_last_name 』\n"
           bot_retor+="Desafortunadamente tu Membresia ha Finalizado\n"
           #bot_retor+=" ⌚⌚ Hora Actual del Bot : ⌚⌚\n"

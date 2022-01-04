@@ -58,7 +58,7 @@ addID_reply () {
         idc=$(echo ${message_text[$id]} | awk '{print $3}' | sed -e 's/[^a-z0-9 -]//ig')
         valid=$(date '+%C%y-%m-%d' -d " +$idc days")
         echo "/${ids} | $valid" >> ${CID}
-          bot_retorno="  🎊 𝙱𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍𝚘  $message_from_first_name  𝚊𝚕  𝙱𝚘𝚝𝙶𝚎𝚗  𝙲𝚑𝚞𝚖𝚘𝙶𝙷-𝙰𝙳𝙼  🎊\n"
+          bot_retorno="  🎊 𝙱𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍𝚘  $message_from_first_name  𝚊𝚕  𝙱𝚘𝚝𝙶𝚎𝚗  Admin Vps  🎊\n"
           bot_retorno+="✅ *ID agregado * ✅\n"
           bot_retorno+="$LINE\n"
           #bot_retorno+="$(< ${CID})\n"

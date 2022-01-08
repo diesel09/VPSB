@@ -47,11 +47,11 @@ bot_retorno+="  🛡️  Suscribete al canal de YT 🛡️ \n"
 bot_retorno+="╭──── • INSTALADOR • ────╮\n"
 bot_retorno+="<code> wget https://raw.githubusercontent.com/AizenNetFreeMx/AdminVPS/main/instalscript.sh; chmod 777 instalscript.sh; ./instalscript.sh</code>\n"
 bot_retorno+="╰──────  ✦✦✦  ──────╯\n"
-bot_retorno+="🚀 Soporte - OS 🚀 \n  Ubuntu 14 - 16 - 18 - 20 (x64)\n 💻 SO Recomendado: Ubuntu 18 💻 \n"
+bot_retorno+="🚀 Sistemas Compatibles 🚀 \n  Ubuntu 14 - 16 - 18 - 20 (x64)\n 💻 SO Recomendado: Ubuntu 18 💻 \n"
 #bot_retorno+=" 🔐 Usadas『 $(cat /etc/http-instas) 』 , Generadas 『 $(ls /etc/http-shell/ | grep name | wc -l) 』 🔓 \n"
 bot_retorno+=" 🔐 Usadas『 $(cat /etc/http-instas) 』 - Generadas este dia『 $(ls /etc/http-shell/ | grep name | wc -l) 』 🔓 \n"
 bot_retorno+=" Bot Para las Keys: @KeyVpspremium_bot \n"
-bot_retorno+=" ⌚ Fecha y Hora del Bot : $(printf '%(%D-%H:%M:%S)T')⌚\n"
+#bot_retorno+=" ⌚ Fecha y Hora del Bot : $(printf '%(%D-%H:%M:%S)T')⌚\n"
 bot_retorno+="$LINE\n"
 msj_fun
 echo -e ${keyfinal} > ${keytxt}/key_@${message_from_username}.txt

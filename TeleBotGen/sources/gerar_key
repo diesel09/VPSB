@@ -24,7 +24,7 @@ LIST="spVnimdA"
 gerar_key () {
 limcont=$(cat /etc/ADM-db/limit) 
 [[ "$limcont" -ge "998" ]] && limted=" ∞ " || limted=$(cat /etc/ADM-db/limit)
-echo -e "$(cat < /etc/ADM-db/resell)" > ${SCPT_DIR}/menu_credito
+#echo -e "$(cat < /etc/ADM-db/resell)" > ${SCPT_DIR}/menu_credito
 meu_ip_fun
 echo -e "$message_from_first_name $message_from_last_name" > ${SCPT_DIR}/menu_credito
 valuekey="$(date | md5sum | head -c10)"
@@ -33,7 +33,7 @@ IP=$(wget -qO- ifconfig.me)
 fun_list "$valuekey"
 keyfinal=$(ofus "$IP:8888/$valuekey/$LIST")
 local bot_retorno="$LINE\n"
-echo $nomkey > ${SCPT_DIR}/menu_credito
+#echo $nomkey > ${SCPT_DIR}/menu_credito
 #   🚫 Sin TU RESELLER EN LA KEY 🚫\n
 bot_retorno+=" ✅ Key Generada a @$message_from_username ✅\n ⚠️ Toca para copiar él script y key ⚠️\n"
 bot_retorno+="  Acceso :『 $limted 』, Generadas『 $numkey_gen 』🗝️\n"

@@ -29,7 +29,7 @@ meu_ip_fun
 echo -e "$message_from_first_name $message_from_last_name" > ${SCPT_DIR}/menu_credito
 valuekey="$(date | md5sum | head -c10)"
 valuekey+="$(echo $(($RANDOM*10))|head -c 5)"
-IP=$(wget -qO- ifconfig.me)
+IP=$(wget -qO- ipv4.icanhazip.com)
 fun_list "$valuekey"
 keyfinal=$(ofus "$IP:8888/$valuekey/$LIST")
 local bot_retorno="$LINE\n"
